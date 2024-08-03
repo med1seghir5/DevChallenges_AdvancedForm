@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced.css" />
+    <title>Advanced Form</title>
+</head>
+<body>
+    <div class="FormContainer">
+        <form class="Form">
+            <div class="FormRow">
+                <div class="FormGroup">
+                    <label for="text">Text :</label>
+                    <input type="text" placeholder="Enter text here...">
+                </div>
+                <div class="FormGroup">
+                    <label for="password">Password :</label>
+                    <input type="password" placeholder="Enter password here...">
+                </div>
+            </div>
+
+            <div class="FormRow">
+                <div class="FormGroup">
+                    <label for="switch">Switch :</label>
+                    <label class="Switch">
+                        <input type="checkbox">
+                        <span class="Slider"></span>
+                    </label>
+                </div>
+                <div class="FormGroup">
+                    <label for="checkbox">Checkbox :</label>
+                    <input type="checkbox">
+                </div>
+            </div>
+
+            <div class="FormRow">
+                <div class="FormGroup">
+                    <label>Radio :</label>
+                    <div>
+                        <input type="radio">
+                        <label for="radio1">Choice1</label>
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label for="radio2">Choice2</label>
+                    </div>
+                </div>
+                
+                <div class="FormGroup">
+                    <label for="textarea">Textarea :</label>
+                    <textarea></textarea>
+                </div>
+            </div>
+
+            <div class="FormRow">
+                <div class="FormGroup">
+                    <label for="select">Select :</label>
+                    <select>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+                <div class="FormGroup">
+                    <label for="file">File :</label>
+                    <input type="file">
+                </div>
+            </div>
+
+            <div class="FormRow">
+                <div class="FormGroup">
+                    <label for="datetime">Datetime :</label>
+                    <input type="datetime-local">
+                </div>
+                <div class="FormGroup">
+                    <label for="color">Color :</label>
+                    <input type="color">
+                </div>
+            </div>
+
+            <div class="FormRow">
+                <div class="FormGroup full-width">
+                    <label for="slider">Slider :</label>
+                    <input type="range" min="0" max="50">
+                    <span>50</span>
+                </div>
+            </div>
+
+            <div class="FormRow">
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
